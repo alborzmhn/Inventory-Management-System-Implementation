@@ -1,11 +1,14 @@
 
-# 🏬 Distributed Inventory Management System
+# Distributed Inventory Management System
 
 This repository contains a C++ project that implements a distributed inventory management system using inter-process communication (IPC) through named pipes and standard pipes. The system manages product inventories across multiple stores and parts.
 
+**Course**: Operating System – Autumn 2024  
+**University of Tehran | School of Electrical & Computer Engineering**
+
 ---
 
-## 📁 Project Contents
+## Project Contents
 
 - **main.cpp** - The main process responsible for system initialization, creating processes, and managing communication.
 - **logger.cpp** - A simple logger for printing system events.
@@ -15,7 +18,7 @@ This repository contains a C++ project that implements a distributed inventory m
 
 ---
 
-## 🏗️ System Features
+## System Features
 
 ### Core Features:
 - **Multi-Process System:**
@@ -35,7 +38,7 @@ This repository contains a C++ project that implements a distributed inventory m
 
 ---
 
-## 🚀 How to Build and Run
+## How to Build and Run
 
 1. **Clone the repository:**
    ```bash
@@ -59,7 +62,7 @@ This repository contains a C++ project that implements a distributed inventory m
 
 ---
 
-## 📊 How It Works
+## How It Works
 
 1. **System Initialization:**
    - Reads the list of stores and parts from a CSV file.
@@ -78,12 +81,3 @@ This repository contains a C++ project that implements a distributed inventory m
 
 5. **Clean-up:**
    - Deletes all named pipes and closes processes.
-
----
-
-## ⚙️ Requirements
-
-- **Compiler:** g++
-- **System:** Linux-based system recommended
-- **Libraries:** Standard C++ libraries
-
